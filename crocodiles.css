@@ -1,0 +1,217 @@
+body {
+
+    background-color: #FFFED4;
+  }
+
+  @font-face {
+    font-family:"Bonbance";
+    src: url(Bonbance-BoldCondensed.otf);
+  }
+   
+    @font-face {
+        font-family:"LT-Museum";
+        src: url(LTMuseum-Medium.ttf);
+    }
+
+    @font-face {
+        font-family:"LT-Museum-Italic";
+        src: url(LTMuseum-MediumItalic.ttf)
+    }
+  
+  h1 {
+    font-family: "Bonbance";
+    color: #193016;
+    text-align: left;
+    padding-left: 210px;
+    padding-top: 100px;
+    font-size: 50px;
+   letter-spacing: -2px;
+  }
+
+  h2 {
+    font-family: "Bonbance";
+    color:#FFFED4;
+    text-align: left;
+    padding-left: 210px;
+    padding-top: 100px;
+    font-size: 50px;
+    letter-spacing: -2px;
+   
+  }
+
+  
+  #one {
+    font-family:"LT-Museum";
+    font-size: 20px;
+    padding-top: 15px;
+    padding-right: 210px;
+    padding-bottom: 25px;
+    padding-left: 210px;
+    color: #193016;
+  }
+
+  #two {
+    font-family:"LT-Museum";
+    font-size: 20px;
+    padding-top: 15px;
+    padding-right: 210px;
+    padding-bottom: 15px;
+    padding-left: 210px;
+    color:#FFFED4;
+  }
+  #twosmall {
+    font-family:"LT-Museum";
+    font-size: 15px;
+    padding-top: 25px;
+    padding-right: 210px;
+    padding-bottom: 25px;
+    padding-left: 210px;
+    color:#FFFED4;
+  }
+
+  #twoquote {
+    font-family:"LT-Museum-Italic";
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 25px;
+    padding-right: 210px;
+    padding-bottom: 25px;
+    padding-left: 210px;
+    color:#FFFED4;
+  }
+
+  #three {
+    font-family:"LT-Museum";
+    font-size: 20px;
+    padding-top: 25px;
+    padding-right: 210px;
+    padding-bottom: 25px;
+    padding-left: 210px;
+    color:#ff4000;
+  }
+
+  li {
+    display:inline-flex;
+    color: #FFFED4;
+  }
+  ul {
+    background-color: #000000;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #000000;
+    text-align: center;
+    font-size: larger;
+  }
+
+  
+  li a {
+    display: block;
+    color:#FFFED4;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-family: "LT-Museum";
+  }
+  
+  
+  li a:hover {
+    background-color: #000000;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  .hero-image {
+    background:url(Images/hero\ image.gif);
+    background-size:cover;
+    height: 650px;
+    width: 100%;
+    position: relative;
+  }
+
+.block {
+width: 100%;
+height: 500px;
+margin: 50px auto; 
+background-color: #193016;
+
+}
+
+.blocktwo {
+    width: 100%;
+    height: 1500px;
+    margin: 50px auto; 
+    background-color: #193016;
+    
+    }
+
+    .blockthree {
+        width: 100%;
+        height: 1300px;
+        margin: 50px auto; 
+        background-color: #193016;
+        
+        }
+        
+footer {
+    text-align: center;
+    background-color: #000000;
+    height: 150px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}    
+
+a.one:link {
+    color:#FFFED4;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a.one:visited {
+    color:#FFFED4;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a.one:hover {
+    color: rgb(255, 64, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a.two:link {
+    color:#193016;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a.two:visited {
+    color:#193016;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a.two:hover {
+    color: rgb(255, 64, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #ff4000;
+  }
