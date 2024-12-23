@@ -137,9 +137,20 @@ body {
     position: relative;
   }
 
+  .drawing-img {
+    display:inline;
+    float: right;
+    margin-left: auto;
+    margin-right:0%;
+    width: 450px;
+    height: 350px;
+    padding-right: 150px;
+    
+  }
+
 .block {
 width: 100%;
-height: 500px;
+height: 1200px;
 margin: 50px auto; 
 background-color: #193016;
 
@@ -147,7 +158,7 @@ background-color: #193016;
 
 .blocktwo {
     width: 100%;
-    height: 1500px;
+    height: 1100px;
     margin: 50px auto; 
     background-color: #193016;
     
@@ -215,3 +226,30 @@ a.one:link {
     margin-right: 40px;
     color: #ff4000;
   }
+
+  .about {
+    padding-top: 15px;
+    padding-right: 1110px;
+    padding-bottom: 25px;
+    padding-left: 210px;
+  }
+
+  .dropcap {
+    font-family: "Bonbance";
+    color: #193016;
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 100px;
+    font-size: 50px;
+   letter-spacing: -2px;
+  }
+
+  .firstblock {
+padding-bottom: 100px;
+padding-top: 30px;
+  }
+
+  .lastblock {
+    padding-bottom: 200px;
+    padding-top: 0px;
+      }
