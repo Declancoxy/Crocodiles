@@ -1,6 +1,7 @@
 body {
 
     background-color: #FFFED4;
+    margin: 0%;
   }
 
   @font-face {
@@ -22,7 +23,7 @@ body {
     font-family: "Bonbance";
     color: #193016;
     text-align: left;
-    padding-left: 210px;
+    padding-left: 215px;
     padding-top: 100px;
     font-size: 50px;
    letter-spacing: -2px;
@@ -32,7 +33,7 @@ body {
     font-family: "Bonbance";
     color:#FFFED4;
     text-align: left;
-    padding-left: 210px;
+    padding-left: 215px;
     padding-top: 100px;
     font-size: 50px;
     letter-spacing: -2px;
@@ -44,9 +45,9 @@ body {
     font-family:"LT-Museum";
     font-size: 20px;
     padding-top: 15px;
-    padding-right: 210px;
+    padding-right: 215px;
     padding-bottom: 25px;
-    padding-left: 210px;
+    padding-left: 215px;
     color: #193016;
   }
 
@@ -54,18 +55,18 @@ body {
     font-family:"LT-Museum";
     font-size: 20px;
     padding-top: 15px;
-    padding-right: 210px;
+    padding-right: 215px;
     padding-bottom: 15px;
-    padding-left: 210px;
+    padding-left: 215px;
     color:#FFFED4;
   }
   #twosmall {
     font-family:"LT-Museum";
     font-size: 15px;
     padding-top: 25px;
-    padding-right: 210px;
+    padding-right: 215px;
     padding-bottom: 25px;
-    padding-left: 210px;
+    padding-left: 215px;
     color:#FFFED4;
   }
 
@@ -74,9 +75,9 @@ body {
     font-size: 20px;
     font-style: italic;
     padding-top: 25px;
-    padding-right: 210px;
+    padding-right: 215px;
     padding-bottom: 25px;
-    padding-left: 210px;
+    padding-left: 215px;
     color:#FFFED4;
   }
 
@@ -84,9 +85,9 @@ body {
     font-family:"LT-Museum";
     font-size: 20px;
     padding-top: 25px;
-    padding-right: 210px;
+    padding-right: 215px;
     padding-bottom: 25px;
-    padding-left: 210px;
+    padding-left: 215px;
     color:#ff4000;
   }
 
@@ -94,16 +95,14 @@ body {
     display:inline-flex;
     color: #FFFED4;
   }
-  ul {
-    background-color: #000000;
-  }
 
   ul {
+    background-color: #000000;
     list-style-type: none;
     margin: 0;
     padding: 10px;
     overflow: hidden;
-    background-color: #000000;
+    background-color: #0c0c0c;
     text-align: center;
     font-size: larger;
   }
@@ -127,38 +126,40 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    max-width: 70%;
+    height: auto;
   }
   .hero-image {
     background:url(Images/hero\ image.gif);
-    background-size:cover;
-    height: 650px;
-    width: 100%;
-    position: relative;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 690px;
+    max-width: 100%;
   }
 
   .drawing-img {
-    display:inline;
+    display:block;
     float: right;
     margin-left: auto;
-    margin-right:0%;
-    width: 450px;
-    height: 350px;
+    margin-right:5%;
+    margin-bottom: 100px;
+    width: 350px;
+    height: 250px;
     padding-right: 150px;
     
   }
 
 .block {
 width: 100%;
-height: 1200px;
-margin: 50px auto; 
+min-height: 800px;
 background-color: #193016;
+
 
 }
 
 .blocktwo {
     width: 100%;
-    height: 1100px;
+    min-height: 1300px;
     margin: 50px auto; 
     background-color: #193016;
     
@@ -166,7 +167,7 @@ background-color: #193016;
 
     .blockthree {
         width: 100%;
-        height: 1300px;
+        min-height: 1000px;
         margin: 50px auto; 
         background-color: #193016;
         
@@ -197,7 +198,7 @@ a.one:link {
   a.one:hover {
     color: rgb(255, 64, 0);
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   a.two:link {
@@ -215,7 +216,7 @@ a.one:link {
   a.two:hover {
     color: rgb(255, 64, 0);
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration:none;
   }
 
   blockquote {
@@ -228,7 +229,7 @@ a.one:link {
   }
 
   .about {
-    padding-top: 15px;
+    padding-top: 0px;
     padding-right: 1110px;
     padding-bottom: 25px;
     padding-left: 210px;
@@ -250,6 +251,56 @@ padding-top: 30px;
   }
 
   .lastblock {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     padding-top: 0px;
       }
+
+     @media (max-width:824px) {
+h1{
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.dropcap {
+    font-size: 40px;
+}
+
+
+#one {
+    font-size: 15px;
+}
+
+#two {
+    font-size: 15px;
+}
+
+#twosmall {
+    font-size: 15px;
+}
+
+#twoquote {
+    font-size: 15px;
+}
+
+#three {
+    font-size: 15px;
+}
+
+img {
+    max-width: 400px ;
+
+}
+
+.drawing-img {
+max-height: 250px;
+max-height: 100px;
+    display:contents
+     }
+
+     li a {
+        max-width: 20px;
+        font-size: 15px;
+    }
