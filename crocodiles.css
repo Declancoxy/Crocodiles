@@ -131,24 +131,24 @@ body {
   }
   .hero-image {
     background:url(Images/hero\ image.gif);
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
-    min-height: 690px;
+    height: 85vh;
     max-width: 100%;
   }
 
   .drawing-img {
-    display:flex;
-    float: right;
-    padding-right: 200px;
-max-width: 350px;
-max-height: auto;
-    
+  max-width: 30%; 
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right:auto
   }
+    
 
 .block {
 width: 100%;
-min-height: 800px;
+min-height: 450px;
 background-color: #193016;
 
 
@@ -156,7 +156,7 @@ background-color: #193016;
 
 .blocktwo {
     width: 100%;
-    min-height: 1300px;
+    min-height: 1000px;
     margin: 50px auto; 
     background-color: #193016;
     
@@ -164,7 +164,7 @@ background-color: #193016;
 
     .blockthree {
         width: 100%;
-        min-height: 1000px;
+        min-height: 700px;
         margin: 50px auto; 
         background-color: #193016;
         
@@ -225,11 +225,6 @@ a.one:link {
     color: #ff4000;
   }
 
-  .about {
-    padding-right: 1110px;
-    padding-left: 210px;
-    float: left;
-  }
   .dropcap {
     font-family: "Bonbance";
     color: #193016;
@@ -239,10 +234,6 @@ a.one:link {
    letter-spacing: -2px;
   }
 
-  .firstblock {
-padding-bottom: 100px;
-padding-top: 30px;
-  }
 
   .lastblock {
     padding-bottom: 100px;
@@ -284,73 +275,104 @@ h2 {
 }
 
 img {
-    max-width: 400px ;
+    max-width: 50% ;
 
 }
 
+.hero-image {
+    background:url(Images/hero\ image.gif);
+    background-size:cover;
+    background-repeat: no-repeat;
+    max-height: 60vh;
+    max-width: 100%;
+  }
+
 .drawing-img {
-display:flex;
-float: right;
-min-width: 100px;
-height: 150px;
-margin-left:20px;
+    max-width: 30%; 
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right:auto
      }
 
      li a {
         max-width: 20px;
         font-size: 15px;
     }
+
 }
 
 @media (max-width:428px) {
     h1{
         font-size: 30px;
+        padding-left: 28%;
     }
     
     h2 {
         font-size: 30px;
+        padding-left: 28%;
     }
     
     .dropcap {
         font-size: 30px;
+        padding-left: 0%;
     }
     
     
     #one {
         font-size: 10px;
+        padding-left: 28%;
+        padding-right: 28%;
     }
     
     #two {
         font-size: 10px;
+        padding-left: 28%;
+        padding-right: 28%;
     }
     
     #twosmall {
         font-size: 10px;
+        padding-left: 28%;
+        padding-right: 28%;
     }
     
     #twoquote {
         font-size: 10px;
+        padding-left: 28%;
+        padding-right: 28%;
     }
     
     #three {
         font-size: 10px;
+        padding-left: 28%;
+        padding-right: 28%;
     }
     
     img {
         max-width: 200px ;
     
     }
+
+    .hero-image {
+        background:url(Images/hero\ image.gif);
+        background-size:cover;
+        background-repeat: no-repeat;
+        min-height: auto;
+       max-width: auto;
+      }
     
     .drawing-img {
-    display:flex;
-    float: right;
-    min-width: 60px;
-    height: 100px;
-    margin-left:20px;
+        max-width: 20%; 
+        height: auto;
+        display: block;
+        margin-left:25%;
+        margin-right:auto
          }
     
          li a {
-            max-width: 20px;
-            font-size: 15px;
+            max-width: 10px;
+            font-size: 10px;
         }
+
     }
