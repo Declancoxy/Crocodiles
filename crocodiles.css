@@ -133,19 +133,16 @@ body {
     background:url(Images/hero\ image.gif);
     background-size:contain;
     background-repeat: no-repeat;
-    height: 690px;
+    min-height: 690px;
     max-width: 100%;
   }
 
   .drawing-img {
-    display:block;
+    display:flex;
     float: right;
-    margin-left: auto;
-    margin-right:5%;
-    margin-bottom: 100px;
-    width: 350px;
-    height: 250px;
-    padding-right: 150px;
+    padding-right: 200px;
+max-width: 350px;
+max-height: auto;
     
   }
 
@@ -229,18 +226,15 @@ a.one:link {
   }
 
   .about {
-    padding-top: 0px;
     padding-right: 1110px;
-    padding-bottom: 25px;
     padding-left: 210px;
+    float: left;
   }
-
   .dropcap {
     font-family: "Bonbance";
     color: #193016;
     text-align: left;
     padding-left: 0px;
-    padding-top: 100px;
     font-size: 50px;
    letter-spacing: -2px;
   }
@@ -295,12 +289,68 @@ img {
 }
 
 .drawing-img {
-max-height: 250px;
-max-height: 100px;
-    display:contents
+display:flex;
+float: right;
+min-width: 100px;
+height: 150px;
+margin-left:20px;
      }
 
      li a {
         max-width: 20px;
         font-size: 15px;
+    }
+}
+
+@media (max-width:428px) {
+    h1{
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    .dropcap {
+        font-size: 30px;
+    }
+    
+    
+    #one {
+        font-size: 10px;
+    }
+    
+    #two {
+        font-size: 10px;
+    }
+    
+    #twosmall {
+        font-size: 10px;
+    }
+    
+    #twoquote {
+        font-size: 10px;
+    }
+    
+    #three {
+        font-size: 10px;
+    }
+    
+    img {
+        max-width: 200px ;
+    
+    }
+    
+    .drawing-img {
+    display:flex;
+    float: right;
+    min-width: 60px;
+    height: 100px;
+    margin-left:20px;
+         }
+    
+         li a {
+            max-width: 20px;
+            font-size: 15px;
+        }
     }
